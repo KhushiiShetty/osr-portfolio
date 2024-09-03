@@ -18,7 +18,10 @@ const About = () => {
 
     return (
       <>
+        
         <div className='container about-page'>
+        
+        
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters
@@ -27,14 +30,10 @@ const About = () => {
                         idx={15} 
                     />
                 </h1>
-                <p> I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects. </p>
-                <p> I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.</p>
-                <p> If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!</p>
+                <p> I’m a junior at the University of Massachusetts Amherst, pursuing a Bachelor of Science in Computer Engineering. With a solid foundation in full-stack development and a strong interest in AI and Data Engineering, I’m eager to dive into roles that allow me to merge creativity with technical expertise.
+                   </p>
+                <p> I’m actively seeking internships that span AI, Machine Learning, full-stack development, and project management. These roles align with my skills and aspirations, providing opportunities to contribute to cutting-edge projects while continuing to grow professionally. My keen attention to detail, strong organizational skills, and ability to communicate effectively make me well-suited for project management positions.</p>
+                <p> I’m driven by curiosity and a commitment to continuous self-improvement. Challenges excite me as they present opportunities to learn and evolve as an engineer. I take pride in being a quick learner, always ready to tackle new concepts and technologies with enthusiasm.</p>
             </div>
 
             <div className='stage-cube-cont'>
@@ -63,12 +62,20 @@ const About = () => {
                   <FontAwesomeIcon icon={faCss3} color="#EC428"/>
                 
                 </div>
+                
               </div>
 
 
             </div>
+            
+            
         </div>
-        <Loader type="pacman" />
+        <div class="spinner">
+          <div class="spinner1"></div>
+      </div>
+        
+        
+      
       </>
     )
 }

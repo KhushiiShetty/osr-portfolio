@@ -10,7 +10,7 @@
 
 }
 .tags{
-    color: #570987;
+    color: #00ffff;
     opacity: 0.6;
     position:absolute;
     bottom:0;
@@ -52,11 +52,12 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
-
+        
+    
         h1 {
             font-size: 53px;
             font-family: 'Coolvetica';
-            color: #570987;
+            color: #F5F5F5;
             font-weight:400;
             margin-top: 0;
             position: relative;
@@ -85,14 +86,15 @@
                 opacity: 0.6;
 
 
-            }
+            
+        }
 
 
         
         }
 
         p {
-            font-size: 13px;
+            font-size: 16px;
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;
@@ -119,7 +121,7 @@
 
     .text-animate-hover {
         &:hover {
-            color: #fff;
+            color: #00ffff;
             
         }
     }

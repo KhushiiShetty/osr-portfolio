@@ -2,29 +2,29 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/logo-s.png'
+// import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = [' ','K', 'h', 'u', 's', 'h', 'i', 'i']
+  const nameArray = [' ','K', 'h', 'u', 's', 'h', 'i', 'i',',']
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
+    'C',
     'o',
-    'p',
+    'm',
+    'p ',
+    'u',
+    't',
     'e',
     'r',
-    '.',
+    ' ',
+    'E',
+    'n',
+    'g',
+    'i',
+    'n', 'e', 'e', 'r','.'
   ]
 
   useEffect(() => {
@@ -56,17 +56,25 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={18}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2> Project Management / Full stack developer / Aspiring AI and Data scientist / Student
+            
+          </h2>
+          
+          
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
         <Logo />
       </div>
-      <Loader type="pacman" />
+      
+      <div class="spinner">
+          <div class="spinner1"></div>
+      </div>
+      
 
       
     </>

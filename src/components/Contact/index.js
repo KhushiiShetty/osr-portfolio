@@ -41,8 +41,11 @@ const Contact = () => {
                 />
                 </h1>
                 <p>
-                    Om Sai Ram
+                    For internship opportunities, freelance projects, or just to chat about technology, please fill the form below.
+                    
                 </p>
+                <p>Thank you!</p>
+                
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
                         <ul>
@@ -86,8 +89,13 @@ const Contact = () => {
 
                 </MapContainer>
             </div>
+            
         </div>
-        <Loader type="pacman" />
+        <div class="spinner">
+          <div class="spinner1"></div>
+      </div>
+        
+        
     </>
     )
 }
