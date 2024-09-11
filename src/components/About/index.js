@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngular, faCss3, faJava, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons/faHtml5'
-import Loader from 'react-loaders'
+
 
 const About = () => {
   

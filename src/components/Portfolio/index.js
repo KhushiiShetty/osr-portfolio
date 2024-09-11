@@ -89,8 +89,7 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../firebase';
+
 const mockPortfolioData = [
   {
       name: " StreamSmart",
@@ -104,7 +103,7 @@ const mockPortfolioData = [
       image: "https://i.pinimg.com/564x/71/2b/c4/712bc4ac83d15175aefcd862a1794a54.jpg", // Placeholder image URL
       url: "https://github.com/KhushiiShetty/Optimised-Delivery-Routing-System.git"
   }
-  
+
 ];
 
 const Portfolio = () => { 

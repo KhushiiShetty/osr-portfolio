@@ -1,6 +1,6 @@
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Loader from 'react-loaders'
+
 import { useEffect, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import {useRef} from 'react'
