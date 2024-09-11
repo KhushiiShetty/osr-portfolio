@@ -86,7 +86,7 @@
 // export default Portfolio;
 
 import React, { useEffect, useState } from "react";
-import Loader from "react-loaders";
+
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 
@@ -170,7 +170,10 @@ const Portfolio = () => {
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>
             </div>
-            <Loader type="pacman" />
+            <div class="spinner">
+                <div class="spinner1"></div>
+            </div>
+            
         </>
     );
 }
