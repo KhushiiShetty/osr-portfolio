@@ -75,6 +75,7 @@ const Home = () => {
           <div class="spinner1"></div>
       </div>
       
+      
 
       
     </>
