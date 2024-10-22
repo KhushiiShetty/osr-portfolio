@@ -108,6 +108,11 @@ const mockPortfolioData = [
     description:"This project is a implementation of the classic card game 'Go Fish,' developed in C. The game is designed for one human player and one computer player. It utilizes basic UNIX software development tools, including gcc, gdb, and make.",
     image: "https://raw.githubusercontent.com/KhushiiShetty/GoFish-in-C-with-UNIX/refs/heads/thumbnail/DALL·E%202024-10-20%2021.36.14%20-%20A%20dynamic%20and%20cool%20representation%20of%20a%20GoFish%20card%20game%20designed%20for%20a%20tech%20portfolio%20thumbnail.%20The%20scene%20features%20a%20futuristic%20table%20with%20players%20ho.webp",
     url: "https://github.com/KhushiiShetty/GoFish-in-C-with-UNIX.git"
+  },
+  {name:" DeepDream in TensorFlow",
+    description: "Recreated Google's DeepDream using the TensorFlow machine learning library in python",
+    image: "https://d2kq0urxkarztv.cloudfront.net/60d8c40f6d920300a647a2af/2998292/upload-74e7cfc9-9ae9-46a9-b5ca-8ca5da9d9a39.jpg?w=790",
+    url:"https://github.com/KhushiiShetty/DeepDream.git"
   }
 
 ];
